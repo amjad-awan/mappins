@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.app {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label {
+  color: tomato;
+  font-size: 13px;
+  border-bottom: 0.5px solid tomato;
+  width: max-content;
+  margin: 3px 0px;
+}
+
+.desc {
+  font-size: 14px;
+}
+.star {
+  color: gold;
+}
+
+.username {
+  font-size: 13px;
+}
+.date {
+  font-size: 12px;
+}
+.user-popup
+{
+  min-width: 300px;
+}
+form {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+form input, textarea
+{
+  border: unset;
+border-bottom: 1px solid gray;
+}
+
+form input::placeholder, textarea::placeholder{
+  font-size: 12px;
+  color:rgb(171, 169, 169)
+}
+
+.submitBtn
+{
+  border: none;
+  padding: 5px;
+  color:white;
+  background-color: tomato;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button{
+  border:none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.logout
+{
+  background-color: tomato;
+}
+.login
+{
+  background-color: teal;
+  margin-right: 10px;
+}
+.register
+{
+  background-color: slateblue;
+}
+
+.buttons, .logout{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
